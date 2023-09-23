@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,600&family=Sedgwick+Ave+Display&display=swap');
+
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+header,footer,nav{
+	font-family: 'EB Garamond', serif;
+	font-size: large;
+}
+
+nav.nav ul.nav{
+
+	justify-content: space-evenly;
+}
+nav.nav ul.nav li.nav-link a{
+	text-decoration: none;
+	color: beige;
+	
+}
+
+
+h6,p {
+	padding: 0;
+	margin: 0;
+}
+
+
+div.row div.text-md-center{
+
+
+	color: beige;
+}
+
+
+.ico_foo:hover {
+	cursor: pointer;
+}
+
+
+.redesSociales:hover {
+	color: blue;
+	cursor: pointer;
+}
+
+
+
+
+
+/* vista desktop */
+@media only screen and (min-width: 1024px) {
+
+
+}
+
+/* vista mobile */
+@media only screen and (max-width: 576px) {
+
+	.img__logo__header{
+		width: 50px;
+	}
+
+	h6 {
+		font-size: medium;
+	}
+
+	div.row div.text-md-center{
+		font-size: x-small;
+	}
+
+
+	section.info__nosotros h1 {
+		font-size: medium;
+	}
+	
+	section.info__nosotros p {
+		font-size: small;
+	}
+	
+	.titulos__tragos {
+		font-size: medium;
+	}
+
+	.titulos__descripcion h3{
+		font-size: small;
+	}
+
+	.descripcion__tragos p{
+		font-size: x-small;
+	}
+}
+
