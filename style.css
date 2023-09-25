@@ -36,8 +36,20 @@ div.row div.text-md-center{
 	color: beige;
 }
 
+.redes {
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	color: beige;
+}
 
+.redes p {
+	margin-right: 7px;
+}
 
+.redes a {
+	margin-left: 10px;
+}
 /* vista desktop */
 @media only screen and (min-width: 1024px) {
 
@@ -81,6 +93,8 @@ div.row div.text-md-center{
 		font-size: x-small;
 	}
 
-	
+	div .redes {
+		justify-content: center;
+	}
 }
 
