@@ -71,7 +71,7 @@ div.row div.text-md-center{
 		font-size: x-small;
 	}
 
-
+	/* html index */
 	section.info__nosotros h1 {
 		font-size: medium;
 	}
@@ -80,6 +80,7 @@ div.row div.text-md-center{
 		font-size: small;
 	}
 	
+	/* html tragos */
 	.titulos__tragos {
 		font-size: medium;
 		text-align: center;
@@ -93,8 +94,18 @@ div.row div.text-md-center{
 		font-size: x-small;
 	}
 
-	div .redes {
+	div .redes__nav {
 		justify-content: center;
+	}
+
+	/* html nosotros */
+
+	section.sobre_nosotros h1, h3{
+		font-size: medium;
+	}
+
+	section.sobre_nosotros p{
+		font-size: small;
 	}
 }
 
